@@ -1,0 +1,47 @@
+What is variable??
+A variable in JavaScript is a named container used to store data values in computer memory. We can access and use these stored values throughout our program.
+
+Difference between them:-
+
+let:-
+1.block scope.(Block scope means a variable declared using let or const is accessible only within the block { } in which it is declared.)
+2.Reassignment-Allowed.
+3.Declaration without value-Allowed
+4.Redeclaration in same scope-Not Allowed
+
+var:-
+1.function scope.(Function scope means a variable declared inside a function is accessible only within that function and its inner nested functions. It cannot be accessed directly from outside that function.)
+2.Reassignment-Allowed
+3.Declaration without value-Allowed
+4.Redeclaration in same scope-Allowed
+const:
+1.block scope.(Block scope means a variable declared using let or const is accessible only within the block { } in which it is declared.)
+2.Reassignment-Not Allowed
+3.Declaration without value-Not Allowed
+4.Redeclaration in same scope-Not Allowed
+
+
+
+B.Arrow Function
+-An arrow function is a shorter syntax for writing function expressions in JavaScript.
+Traditional way:
+
+function greet() {
+    return "Hello, Welcome!";
+}
+
+console.log(greet());
+
+Arrow function:
+
+cont greet=()=>{
+    return "Hello, Welcome!";
+};
+console.log(greet());
+
+
+const:-	Declares a variable
+functionName :-	Name of the function
+():-Holds parameters
+=>:-	Arrow function operator
+{}:-	Contains the function body
